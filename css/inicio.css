@@ -35,3 +35,20 @@ button {
     cursor: pointer;
     font-family: "Ubuntu", sans-serif;
 }
+
+@media screen and (max-width: 1020px) {
+    h2 {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    button {
+        border-radius: 20px;
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+
+    p  {
+        font-size: 13px;
+    }
+}
